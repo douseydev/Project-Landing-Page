@@ -36,7 +36,9 @@ header nav ul{
 nav ul li a{
     color: white;
 }
-
+nav ul li a:hover{
+    color: #3882F6;
+}
 .hero{
     display: flex;
     justify-content: space-between;
