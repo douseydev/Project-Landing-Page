@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #1f2937;
+    color: white;
+    padding: 0 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    width: 100%;
+    padding: 5rem;
+    
+    text-align: center;
+   
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li a{
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    margin-top: -7%;
+}
+.gauche{
+    width: 100%;
+}
+.gauche h2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+.gauche p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 5px;
+}
+
+.gauche button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.droite{
+    width: 100%;
+    height: 100%;
+    margin-right: -100px;
+}
+.droite img{
+    width: 90%;
+    height: 40%;
+}
+
+.sect2 h3{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  5rem;
+    gap: 3rem;
+    width: 100%;
+}
+
+.content{
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 4px;
+}
+
+.content img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.content p{
+    font-size: 20px;
+    color: #1f2937;
+    width: 100%;
+    text-align: center;
+}
+
+.sect3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 100px;
+}
+
+.sect3 p{
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.sect3 h4{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.sect4{
+    background-color: #3882f6;
+    margin: 50px 100px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.sect4 div{
+    flex: 1;
+    padding: 3rem;
+}
+.sect4 h3{
+    color: white;
+    margin-bottom: 2%;
+}
+
+.sect4 p{
+    font-weight: 300;
+    color: #E5E7EB;
+}
+.sect4 button{
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 15px;
+    float: right;
+    padding: 5px 25px;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding: 2rem;
+}
